@@ -48,6 +48,8 @@ For more info: [Jupyter Notebook](https://github.com/Priya15073/Monthly-Traffic-
 The deployment of model was done via API using FastApi and Heroku.
 
 **Using FastAPI**
+
+
 FastAPI provides an API for the model earlier and shows the predicted value in JSON format.
   * FastAPI() was used to initialised the API.
   * joblib.load() enabled the loading of the model saved earlier.
@@ -58,6 +60,8 @@ It uses unicorn to launch the API on server.
 
 
 **Using Heroku**
+
+
 Heroku was used to deploy the Aplication on web.
   * Procfile  is run by Heroku which provides instructions to the server
   * runtime.txt tells heroku which frameworks/tools might be needed to be preinstalled for the application to be run successfully.
